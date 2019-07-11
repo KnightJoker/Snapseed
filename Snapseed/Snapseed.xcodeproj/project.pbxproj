@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFA18E622D72482006B0A58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFA18E522D72482006B0A58 /* AppDelegate.m */; };
+		FAFA18E922D72482006B0A58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFA18E822D72482006B0A58 /* ViewController.m */; };
+		FAFA18EC22D72482006B0A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA18EA22D72482006B0A58 /* Main.storyboard */; };
+		FAFA18EE22D72483006B0A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFA18ED22D72483006B0A58 /* Assets.xcassets */; };
+		FAFA18F122D72483006B0A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA18EF22D72483006B0A58 /* LaunchScreen.storyboard */; };
+		FAFA18F422D72483006B0A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFA18F322D72483006B0A58 /* main.m */; };
+		FAFA18FE22D72484006B0A58 /* SnapseedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFA18FD22D72484006B0A58 /* SnapseedTests.m */; };
+		FAFA190922D72484006B0A58 /* SnapseedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFA190822D72484006B0A58 /* SnapseedUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAFA18FA22D72484006B0A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFA18D922D72482006B0A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFA18E022D72482006B0A58;
+			remoteInfo = Snapseed;
+		};
+		FAFA190522D72484006B0A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFA18D922D72482006B0A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFA18E022D72482006B0A58;
+			remoteInfo = Snapseed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAFA18E122D72482006B0A58 /* Snapseed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapseed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFA18E422D72482006B0A58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAFA18E522D72482006B0A58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAFA18E722D72482006B0A58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAFA18E822D72482006B0A58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAFA18EB22D72482006B0A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFA18ED22D72483006B0A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFA18F022D72483006B0A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFA18F222D72483006B0A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFA18F322D72483006B0A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAFA18F922D72484006B0A58 /* SnapseedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapseedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFA18FD22D72484006B0A58 /* SnapseedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapseedTests.m; sourceTree = "<group>"; };
+		FAFA18FF22D72484006B0A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFA190422D72484006B0A58 /* SnapseedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapseedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFA190822D72484006B0A58 /* SnapseedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapseedUITests.m; sourceTree = "<group>"; };
+		FAFA190A22D72484006B0A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFA18DE22D72482006B0A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA18F622D72484006B0A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA190122D72484006B0A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAFA18D822D72482006B0A58 = {
+			isa = PBXGroup;
+			children = (
+				FAFA18E322D72482006B0A58 /* Snapseed */,
+				FAFA18FC22D72484006B0A58 /* SnapseedTests */,
+				FAFA190722D72484006B0A58 /* SnapseedUITests */,
+				FAFA18E222D72482006B0A58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFA18E222D72482006B0A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA18E122D72482006B0A58 /* Snapseed.app */,
+				FAFA18F922D72484006B0A58 /* SnapseedTests.xctest */,
+				FAFA190422D72484006B0A58 /* SnapseedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFA18E322D72482006B0A58 /* Snapseed */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA18E422D72482006B0A58 /* AppDelegate.h */,
+				FAFA18E522D72482006B0A58 /* AppDelegate.m */,
+				FAFA18E722D72482006B0A58 /* ViewController.h */,
+				FAFA18E822D72482006B0A58 /* ViewController.m */,
+				FAFA18EA22D72482006B0A58 /* Main.storyboard */,
+				FAFA18ED22D72483006B0A58 /* Assets.xcassets */,
+				FAFA18EF22D72483006B0A58 /* LaunchScreen.storyboard */,
+				FAFA18F222D72483006B0A58 /* Info.plist */,
+				FAFA18F322D72483006B0A58 /* main.m */,
+			);
+			path = Snapseed;
+			sourceTree = "<group>";
+		};
+		FAFA18FC22D72484006B0A58 /* SnapseedTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA18FD22D72484006B0A58 /* SnapseedTests.m */,
+				FAFA18FF22D72484006B0A58 /* Info.plist */,
+			);
+			path = SnapseedTests;
+			sourceTree = "<group>";
+		};
+		FAFA190722D72484006B0A58 /* SnapseedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA190822D72484006B0A58 /* SnapseedUITests.m */,
+				FAFA190A22D72484006B0A58 /* Info.plist */,
+			);
+			path = SnapseedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFA18E022D72482006B0A58 /* Snapseed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFA190D22D72484006B0A58 /* Build configuration list for PBXNativeTarget "Snapseed" */;
+			buildPhases = (
+				FAFA18DD22D72482006B0A58 /* Sources */,
+				FAFA18DE22D72482006B0A58 /* Frameworks */,
+				FAFA18DF22D72482006B0A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snapseed;
+			productName = Snapseed;
+			productReference = FAFA18E122D72482006B0A58 /* Snapseed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAFA18F822D72484006B0A58 /* SnapseedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFA191022D72484006B0A58 /* Build configuration list for PBXNativeTarget "SnapseedTests" */;
+			buildPhases = (
+				FAFA18F522D72484006B0A58 /* Sources */,
+				FAFA18F622D72484006B0A58 /* Frameworks */,
+				FAFA18F722D72484006B0A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFA18FB22D72484006B0A58 /* PBXTargetDependency */,
+			);
+			name = SnapseedTests;
+			productName = SnapseedTests;
+			productReference = FAFA18F922D72484006B0A58 /* SnapseedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAFA190322D72484006B0A58 /* SnapseedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFA191322D72484006B0A58 /* Build configuration list for PBXNativeTarget "SnapseedUITests" */;
+			buildPhases = (
+				FAFA190022D72484006B0A58 /* Sources */,
+				FAFA190122D72484006B0A58 /* Frameworks */,
+				FAFA190222D72484006B0A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFA190622D72484006B0A58 /* PBXTargetDependency */,
+			);
+			name = SnapseedUITests;
+			productName = SnapseedUITests;
+			productReference = FAFA190422D72484006B0A58 /* SnapseedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFA18D922D72482006B0A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Huni;
+				TargetAttributes = {
+					FAFA18E022D72482006B0A58 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FAFA18F822D72484006B0A58 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FAFA18E022D72482006B0A58;
+					};
+					FAFA190322D72484006B0A58 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FAFA18E022D72482006B0A58;
+					};
+				};
+			};
+			buildConfigurationList = FAFA18DC22D72482006B0A58 /* Build configuration list for PBXProject "Snapseed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFA18D822D72482006B0A58;
+			productRefGroup = FAFA18E222D72482006B0A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFA18E022D72482006B0A58 /* Snapseed */,
+				FAFA18F822D72484006B0A58 /* SnapseedTests */,
+				FAFA190322D72484006B0A58 /* SnapseedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFA18DF22D72482006B0A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFA18F122D72483006B0A58 /* LaunchScreen.storyboard in Resources */,
+				FAFA18EE22D72483006B0A58 /* Assets.xcassets in Resources */,
+				FAFA18EC22D72482006B0A58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA18F722D72484006B0A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA190222D72484006B0A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFA18DD22D72482006B0A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFA18E922D72482006B0A58 /* ViewController.m in Sources */,
+				FAFA18F422D72483006B0A58 /* main.m in Sources */,
+				FAFA18E622D72482006B0A58 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA18F522D72484006B0A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFA18FE22D72484006B0A58 /* SnapseedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA190022D72484006B0A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFA190922D72484006B0A58 /* SnapseedUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAFA18FB22D72484006B0A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFA18E022D72482006B0A58 /* Snapseed */;
+			targetProxy = FAFA18FA22D72484006B0A58 /* PBXContainerItemProxy */;
+		};
+		FAFA190622D72484006B0A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFA18E022D72482006B0A58 /* Snapseed */;
+			targetProxy = FAFA190522D72484006B0A58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAFA18EA22D72482006B0A58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFA18EB22D72482006B0A58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFA18EF22D72483006B0A58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFA18F022D72483006B0A58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFA190B22D72484006B0A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAFA190C22D72484006B0A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFA190E22D72484006B0A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWV7N4CNDC;
+				INFOPLIST_FILE = Snapseed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KnightJoker.Snapseed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAFA190F22D72484006B0A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWV7N4CNDC;
+				INFOPLIST_FILE = Snapseed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KnightJoker.Snapseed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAFA191122D72484006B0A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWV7N4CNDC;
+				INFOPLIST_FILE = SnapseedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KnightJoker.SnapseedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapseed.app/Snapseed";
+			};
+			name = Debug;
+		};
+		FAFA191222D72484006B0A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWV7N4CNDC;
+				INFOPLIST_FILE = SnapseedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KnightJoker.SnapseedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapseed.app/Snapseed";
+			};
+			name = Release;
+		};
+		FAFA191422D72484006B0A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWV7N4CNDC;
+				INFOPLIST_FILE = SnapseedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KnightJoker.SnapseedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Snapseed;
+			};
+			name = Debug;
+		};
+		FAFA191522D72484006B0A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWV7N4CNDC;
+				INFOPLIST_FILE = SnapseedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KnightJoker.SnapseedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Snapseed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFA18DC22D72482006B0A58 /* Build configuration list for PBXProject "Snapseed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFA190B22D72484006B0A58 /* Debug */,
+				FAFA190C22D72484006B0A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFA190D22D72484006B0A58 /* Build configuration list for PBXNativeTarget "Snapseed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFA190E22D72484006B0A58 /* Debug */,
+				FAFA190F22D72484006B0A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFA191022D72484006B0A58 /* Build configuration list for PBXNativeTarget "SnapseedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFA191122D72484006B0A58 /* Debug */,
+				FAFA191222D72484006B0A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFA191322D72484006B0A58 /* Build configuration list for PBXNativeTarget "SnapseedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFA191422D72484006B0A58 /* Debug */,
+				FAFA191522D72484006B0A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFA18D922D72482006B0A58 /* Project object */;
+}
