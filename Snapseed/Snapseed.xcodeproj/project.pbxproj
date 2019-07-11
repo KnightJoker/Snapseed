@@ -7,68 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAFA18E622D72482006B0A58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFA18E522D72482006B0A58 /* AppDelegate.m */; };
-		FAFA18E922D72482006B0A58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFA18E822D72482006B0A58 /* ViewController.m */; };
-		FAFA18EC22D72482006B0A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA18EA22D72482006B0A58 /* Main.storyboard */; };
-		FAFA18EE22D72483006B0A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFA18ED22D72483006B0A58 /* Assets.xcassets */; };
-		FAFA18F122D72483006B0A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA18EF22D72483006B0A58 /* LaunchScreen.storyboard */; };
-		FAFA18F422D72483006B0A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFA18F322D72483006B0A58 /* main.m */; };
-		FAFA18FE22D72484006B0A58 /* SnapseedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFA18FD22D72484006B0A58 /* SnapseedTests.m */; };
-		FAFA190922D72484006B0A58 /* SnapseedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFA190822D72484006B0A58 /* SnapseedUITests.m */; };
+		FAFA192322D7268F006B0A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA192222D7268F006B0A58 /* AppDelegate.swift */; };
+		FAFA192522D7268F006B0A58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA192422D7268F006B0A58 /* ViewController.swift */; };
+		FAFA192822D7268F006B0A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA192622D7268F006B0A58 /* Main.storyboard */; };
+		FAFA192A22D72690006B0A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFA192922D72690006B0A58 /* Assets.xcassets */; };
+		FAFA192D22D72690006B0A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA192B22D72690006B0A58 /* LaunchScreen.storyboard */; };
+		FAFA193822D72690006B0A58 /* SnapseedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA193722D72690006B0A58 /* SnapseedTests.swift */; };
+		FAFA194322D72690006B0A58 /* SnapseedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA194222D72690006B0A58 /* SnapseedUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FAFA18FA22D72484006B0A58 /* PBXContainerItemProxy */ = {
+		FAFA193422D72690006B0A58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FAFA18D922D72482006B0A58 /* Project object */;
+			containerPortal = FAFA191722D7268F006B0A58 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FAFA18E022D72482006B0A58;
+			remoteGlobalIDString = FAFA191E22D7268F006B0A58;
 			remoteInfo = Snapseed;
 		};
-		FAFA190522D72484006B0A58 /* PBXContainerItemProxy */ = {
+		FAFA193F22D72690006B0A58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FAFA18D922D72482006B0A58 /* Project object */;
+			containerPortal = FAFA191722D7268F006B0A58 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FAFA18E022D72482006B0A58;
+			remoteGlobalIDString = FAFA191E22D7268F006B0A58;
 			remoteInfo = Snapseed;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FAFA18E122D72482006B0A58 /* Snapseed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapseed.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAFA18E422D72482006B0A58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FAFA18E522D72482006B0A58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FAFA18E722D72482006B0A58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FAFA18E822D72482006B0A58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FAFA18EB22D72482006B0A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FAFA18ED22D72483006B0A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FAFA18F022D72483006B0A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FAFA18F222D72483006B0A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAFA18F322D72483006B0A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FAFA18F922D72484006B0A58 /* SnapseedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapseedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAFA18FD22D72484006B0A58 /* SnapseedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapseedTests.m; sourceTree = "<group>"; };
-		FAFA18FF22D72484006B0A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAFA190422D72484006B0A58 /* SnapseedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapseedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAFA190822D72484006B0A58 /* SnapseedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapseedUITests.m; sourceTree = "<group>"; };
-		FAFA190A22D72484006B0A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFA191F22D7268F006B0A58 /* Snapseed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapseed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFA192222D7268F006B0A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAFA192422D7268F006B0A58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAFA192722D7268F006B0A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFA192922D72690006B0A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFA192C22D72690006B0A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFA192E22D72690006B0A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFA193322D72690006B0A58 /* SnapseedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapseedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFA193722D72690006B0A58 /* SnapseedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapseedTests.swift; sourceTree = "<group>"; };
+		FAFA193922D72690006B0A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFA193E22D72690006B0A58 /* SnapseedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapseedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFA194222D72690006B0A58 /* SnapseedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapseedUITests.swift; sourceTree = "<group>"; };
+		FAFA194422D72690006B0A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FAFA18DE22D72482006B0A58 /* Frameworks */ = {
+		FAFA191C22D7268F006B0A58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAFA18F622D72484006B0A58 /* Frameworks */ = {
+		FAFA193022D72690006B0A58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAFA190122D72484006B0A58 /* Frameworks */ = {
+		FAFA193B22D72690006B0A58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,56 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FAFA18D822D72482006B0A58 = {
+		FAFA191622D7268F006B0A58 = {
 			isa = PBXGroup;
 			children = (
-				FAFA18E322D72482006B0A58 /* Snapseed */,
-				FAFA18FC22D72484006B0A58 /* SnapseedTests */,
-				FAFA190722D72484006B0A58 /* SnapseedUITests */,
-				FAFA18E222D72482006B0A58 /* Products */,
+				FAFA192122D7268F006B0A58 /* Snapseed */,
+				FAFA193622D72690006B0A58 /* SnapseedTests */,
+				FAFA194122D72690006B0A58 /* SnapseedUITests */,
+				FAFA192022D7268F006B0A58 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FAFA18E222D72482006B0A58 /* Products */ = {
+		FAFA192022D7268F006B0A58 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAFA18E122D72482006B0A58 /* Snapseed.app */,
-				FAFA18F922D72484006B0A58 /* SnapseedTests.xctest */,
-				FAFA190422D72484006B0A58 /* SnapseedUITests.xctest */,
+				FAFA191F22D7268F006B0A58 /* Snapseed.app */,
+				FAFA193322D72690006B0A58 /* SnapseedTests.xctest */,
+				FAFA193E22D72690006B0A58 /* SnapseedUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FAFA18E322D72482006B0A58 /* Snapseed */ = {
+		FAFA192122D7268F006B0A58 /* Snapseed */ = {
 			isa = PBXGroup;
 			children = (
-				FAFA18E422D72482006B0A58 /* AppDelegate.h */,
-				FAFA18E522D72482006B0A58 /* AppDelegate.m */,
-				FAFA18E722D72482006B0A58 /* ViewController.h */,
-				FAFA18E822D72482006B0A58 /* ViewController.m */,
-				FAFA18EA22D72482006B0A58 /* Main.storyboard */,
-				FAFA18ED22D72483006B0A58 /* Assets.xcassets */,
-				FAFA18EF22D72483006B0A58 /* LaunchScreen.storyboard */,
-				FAFA18F222D72483006B0A58 /* Info.plist */,
-				FAFA18F322D72483006B0A58 /* main.m */,
+				FAFA192222D7268F006B0A58 /* AppDelegate.swift */,
+				FAFA192422D7268F006B0A58 /* ViewController.swift */,
+				FAFA192622D7268F006B0A58 /* Main.storyboard */,
+				FAFA192922D72690006B0A58 /* Assets.xcassets */,
+				FAFA192B22D72690006B0A58 /* LaunchScreen.storyboard */,
+				FAFA192E22D72690006B0A58 /* Info.plist */,
 			);
 			path = Snapseed;
 			sourceTree = "<group>";
 		};
-		FAFA18FC22D72484006B0A58 /* SnapseedTests */ = {
+		FAFA193622D72690006B0A58 /* SnapseedTests */ = {
 			isa = PBXGroup;
 			children = (
-				FAFA18FD22D72484006B0A58 /* SnapseedTests.m */,
-				FAFA18FF22D72484006B0A58 /* Info.plist */,
+				FAFA193722D72690006B0A58 /* SnapseedTests.swift */,
+				FAFA193922D72690006B0A58 /* Info.plist */,
 			);
 			path = SnapseedTests;
 			sourceTree = "<group>";
 		};
-		FAFA190722D72484006B0A58 /* SnapseedUITests */ = {
+		FAFA194122D72690006B0A58 /* SnapseedUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FAFA190822D72484006B0A58 /* SnapseedUITests.m */,
-				FAFA190A22D72484006B0A58 /* Info.plist */,
+				FAFA194222D72690006B0A58 /* SnapseedUITests.swift */,
+				FAFA194422D72690006B0A58 /* Info.plist */,
 			);
 			path = SnapseedUITests;
 			sourceTree = "<group>";
@@ -135,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAFA18E022D72482006B0A58 /* Snapseed */ = {
+		FAFA191E22D7268F006B0A58 /* Snapseed */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAFA190D22D72484006B0A58 /* Build configuration list for PBXNativeTarget "Snapseed" */;
+			buildConfigurationList = FAFA194722D72690006B0A58 /* Build configuration list for PBXNativeTarget "Snapseed" */;
 			buildPhases = (
-				FAFA18DD22D72482006B0A58 /* Sources */,
-				FAFA18DE22D72482006B0A58 /* Frameworks */,
-				FAFA18DF22D72482006B0A58 /* Resources */,
+				FAFA191B22D7268F006B0A58 /* Sources */,
+				FAFA191C22D7268F006B0A58 /* Frameworks */,
+				FAFA191D22D7268F006B0A58 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -149,68 +142,69 @@
 			);
 			name = Snapseed;
 			productName = Snapseed;
-			productReference = FAFA18E122D72482006B0A58 /* Snapseed.app */;
+			productReference = FAFA191F22D7268F006B0A58 /* Snapseed.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FAFA18F822D72484006B0A58 /* SnapseedTests */ = {
+		FAFA193222D72690006B0A58 /* SnapseedTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAFA191022D72484006B0A58 /* Build configuration list for PBXNativeTarget "SnapseedTests" */;
+			buildConfigurationList = FAFA194A22D72690006B0A58 /* Build configuration list for PBXNativeTarget "SnapseedTests" */;
 			buildPhases = (
-				FAFA18F522D72484006B0A58 /* Sources */,
-				FAFA18F622D72484006B0A58 /* Frameworks */,
-				FAFA18F722D72484006B0A58 /* Resources */,
+				FAFA192F22D72690006B0A58 /* Sources */,
+				FAFA193022D72690006B0A58 /* Frameworks */,
+				FAFA193122D72690006B0A58 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FAFA18FB22D72484006B0A58 /* PBXTargetDependency */,
+				FAFA193522D72690006B0A58 /* PBXTargetDependency */,
 			);
 			name = SnapseedTests;
 			productName = SnapseedTests;
-			productReference = FAFA18F922D72484006B0A58 /* SnapseedTests.xctest */;
+			productReference = FAFA193322D72690006B0A58 /* SnapseedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FAFA190322D72484006B0A58 /* SnapseedUITests */ = {
+		FAFA193D22D72690006B0A58 /* SnapseedUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAFA191322D72484006B0A58 /* Build configuration list for PBXNativeTarget "SnapseedUITests" */;
+			buildConfigurationList = FAFA194D22D72690006B0A58 /* Build configuration list for PBXNativeTarget "SnapseedUITests" */;
 			buildPhases = (
-				FAFA190022D72484006B0A58 /* Sources */,
-				FAFA190122D72484006B0A58 /* Frameworks */,
-				FAFA190222D72484006B0A58 /* Resources */,
+				FAFA193A22D72690006B0A58 /* Sources */,
+				FAFA193B22D72690006B0A58 /* Frameworks */,
+				FAFA193C22D72690006B0A58 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FAFA190622D72484006B0A58 /* PBXTargetDependency */,
+				FAFA194022D72690006B0A58 /* PBXTargetDependency */,
 			);
 			name = SnapseedUITests;
 			productName = SnapseedUITests;
-			productReference = FAFA190422D72484006B0A58 /* SnapseedUITests.xctest */;
+			productReference = FAFA193E22D72690006B0A58 /* SnapseedUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FAFA18D922D72482006B0A58 /* Project object */ = {
+		FAFA191722D7268F006B0A58 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Huni;
 				TargetAttributes = {
-					FAFA18E022D72482006B0A58 = {
+					FAFA191E22D7268F006B0A58 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					FAFA18F822D72484006B0A58 = {
+					FAFA193222D72690006B0A58 = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = FAFA18E022D72482006B0A58;
+						TestTargetID = FAFA191E22D7268F006B0A58;
 					};
-					FAFA190322D72484006B0A58 = {
+					FAFA193D22D72690006B0A58 = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = FAFA18E022D72482006B0A58;
+						TestTargetID = FAFA191E22D7268F006B0A58;
 					};
 				};
 			};
-			buildConfigurationList = FAFA18DC22D72482006B0A58 /* Build configuration list for PBXProject "Snapseed" */;
+			buildConfigurationList = FAFA191A22D7268F006B0A58 /* Build configuration list for PBXProject "Snapseed" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = FAFA18D822D72482006B0A58;
-			productRefGroup = FAFA18E222D72482006B0A58 /* Products */;
+			mainGroup = FAFA191622D7268F006B0A58;
+			productRefGroup = FAFA192022D7268F006B0A58 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAFA18E022D72482006B0A58 /* Snapseed */,
-				FAFA18F822D72484006B0A58 /* SnapseedTests */,
-				FAFA190322D72484006B0A58 /* SnapseedUITests */,
+				FAFA191E22D7268F006B0A58 /* Snapseed */,
+				FAFA193222D72690006B0A58 /* SnapseedTests */,
+				FAFA193D22D72690006B0A58 /* SnapseedUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FAFA18DF22D72482006B0A58 /* Resources */ = {
+		FAFA191D22D7268F006B0A58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFA18F122D72483006B0A58 /* LaunchScreen.storyboard in Resources */,
-				FAFA18EE22D72483006B0A58 /* Assets.xcassets in Resources */,
-				FAFA18EC22D72482006B0A58 /* Main.storyboard in Resources */,
+				FAFA192D22D72690006B0A58 /* LaunchScreen.storyboard in Resources */,
+				FAFA192A22D72690006B0A58 /* Assets.xcassets in Resources */,
+				FAFA192822D7268F006B0A58 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAFA18F722D72484006B0A58 /* Resources */ = {
+		FAFA193122D72690006B0A58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAFA190222D72484006B0A58 /* Resources */ = {
+		FAFA193C22D72690006B0A58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,60 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FAFA18DD22D72482006B0A58 /* Sources */ = {
+		FAFA191B22D7268F006B0A58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFA18E922D72482006B0A58 /* ViewController.m in Sources */,
-				FAFA18F422D72483006B0A58 /* main.m in Sources */,
-				FAFA18E622D72482006B0A58 /* AppDelegate.m in Sources */,
+				FAFA192522D7268F006B0A58 /* ViewController.swift in Sources */,
+				FAFA192322D7268F006B0A58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAFA18F522D72484006B0A58 /* Sources */ = {
+		FAFA192F22D72690006B0A58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFA18FE22D72484006B0A58 /* SnapseedTests.m in Sources */,
+				FAFA193822D72690006B0A58 /* SnapseedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAFA190022D72484006B0A58 /* Sources */ = {
+		FAFA193A22D72690006B0A58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFA190922D72484006B0A58 /* SnapseedUITests.m in Sources */,
+				FAFA194322D72690006B0A58 /* SnapseedUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FAFA18FB22D72484006B0A58 /* PBXTargetDependency */ = {
+		FAFA193522D72690006B0A58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FAFA18E022D72482006B0A58 /* Snapseed */;
-			targetProxy = FAFA18FA22D72484006B0A58 /* PBXContainerItemProxy */;
+			target = FAFA191E22D7268F006B0A58 /* Snapseed */;
+			targetProxy = FAFA193422D72690006B0A58 /* PBXContainerItemProxy */;
 		};
-		FAFA190622D72484006B0A58 /* PBXTargetDependency */ = {
+		FAFA194022D72690006B0A58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FAFA18E022D72482006B0A58 /* Snapseed */;
-			targetProxy = FAFA190522D72484006B0A58 /* PBXContainerItemProxy */;
+			target = FAFA191E22D7268F006B0A58 /* Snapseed */;
+			targetProxy = FAFA193F22D72690006B0A58 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FAFA18EA22D72482006B0A58 /* Main.storyboard */ = {
+		FAFA192622D7268F006B0A58 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FAFA18EB22D72482006B0A58 /* Base */,
+				FAFA192722D7268F006B0A58 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FAFA18EF22D72483006B0A58 /* LaunchScreen.storyboard */ = {
+		FAFA192B22D72690006B0A58 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FAFA18F022D72483006B0A58 /* Base */,
+				FAFA192C22D72690006B0A58 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FAFA190B22D72484006B0A58 /* Debug */ = {
+		FAFA194522D72690006B0A58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -375,10 +368,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		FAFA190C22D72484006B0A58 /* Release */ = {
+		FAFA194622D72690006B0A58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -427,11 +422,13 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		FAFA190E22D72484006B0A58 /* Debug */ = {
+		FAFA194822D72690006B0A58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -444,11 +441,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KnightJoker.Snapseed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FAFA190F22D72484006B0A58 /* Release */ = {
+		FAFA194922D72690006B0A58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -461,13 +459,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KnightJoker.Snapseed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		FAFA191122D72484006B0A58 /* Debug */ = {
+		FAFA194B22D72690006B0A58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWV7N4CNDC;
@@ -479,14 +479,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KnightJoker.SnapseedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapseed.app/Snapseed";
 			};
 			name = Debug;
 		};
-		FAFA191222D72484006B0A58 /* Release */ = {
+		FAFA194C22D72690006B0A58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWV7N4CNDC;
@@ -498,14 +500,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KnightJoker.SnapseedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapseed.app/Snapseed";
 			};
 			name = Release;
 		};
-		FAFA191422D72484006B0A58 /* Debug */ = {
+		FAFA194E22D72690006B0A58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWV7N4CNDC;
 				INFOPLIST_FILE = SnapseedUITests/Info.plist;
@@ -516,14 +520,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KnightJoker.SnapseedUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Snapseed;
 			};
 			name = Debug;
 		};
-		FAFA191522D72484006B0A58 /* Release */ = {
+		FAFA194F22D72690006B0A58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWV7N4CNDC;
 				INFOPLIST_FILE = SnapseedUITests/Info.plist;
@@ -534,6 +540,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KnightJoker.SnapseedUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Snapseed;
 			};
@@ -542,43 +549,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FAFA18DC22D72482006B0A58 /* Build configuration list for PBXProject "Snapseed" */ = {
+		FAFA191A22D7268F006B0A58 /* Build configuration list for PBXProject "Snapseed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAFA190B22D72484006B0A58 /* Debug */,
-				FAFA190C22D72484006B0A58 /* Release */,
+				FAFA194522D72690006B0A58 /* Debug */,
+				FAFA194622D72690006B0A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAFA190D22D72484006B0A58 /* Build configuration list for PBXNativeTarget "Snapseed" */ = {
+		FAFA194722D72690006B0A58 /* Build configuration list for PBXNativeTarget "Snapseed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAFA190E22D72484006B0A58 /* Debug */,
-				FAFA190F22D72484006B0A58 /* Release */,
+				FAFA194822D72690006B0A58 /* Debug */,
+				FAFA194922D72690006B0A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAFA191022D72484006B0A58 /* Build configuration list for PBXNativeTarget "SnapseedTests" */ = {
+		FAFA194A22D72690006B0A58 /* Build configuration list for PBXNativeTarget "SnapseedTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAFA191122D72484006B0A58 /* Debug */,
-				FAFA191222D72484006B0A58 /* Release */,
+				FAFA194B22D72690006B0A58 /* Debug */,
+				FAFA194C22D72690006B0A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAFA191322D72484006B0A58 /* Build configuration list for PBXNativeTarget "SnapseedUITests" */ = {
+		FAFA194D22D72690006B0A58 /* Build configuration list for PBXNativeTarget "SnapseedUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAFA191422D72484006B0A58 /* Debug */,
-				FAFA191522D72484006B0A58 /* Release */,
+				FAFA194E22D72690006B0A58 /* Debug */,
+				FAFA194F22D72690006B0A58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FAFA18D922D72482006B0A58 /* Project object */;
+	rootObject = FAFA191722D7268F006B0A58 /* Project object */;
 }
