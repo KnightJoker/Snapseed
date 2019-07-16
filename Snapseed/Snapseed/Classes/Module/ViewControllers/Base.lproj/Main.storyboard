@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainController" customModule="Snapseed" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eHt-TJ-UTj"/>
+                        <viewControllerLayoutGuide type="bottom" id="B07-4h-aBf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BaE-XL-AVJ">
+                                <rect key="frame" x="369" y="59" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5SB-2U-Btp"/>
+                                    <constraint firstAttribute="width" constant="30" id="PKD-Af-ZxT"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeH-30-EOV">
+                                <rect key="frame" x="15" y="59" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="csL-af-vv7"/>
+                                    <constraint firstAttribute="height" constant="30" id="qbU-9y-n8d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="OPEN">
+                                    <color key="titleColor" red="0.43137254901960786" green="0.43137254901960786" blue="0.43137254901960786" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onTapOpenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DnZ-Y7-izh"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q1c-nU-icY">
+                                <rect key="frame" x="147" y="388" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="fcc-bu-Oa3"/>
+                                    <constraint firstAttribute="width" constant="120" id="xHc-Um-K2z"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap anywhere to open a photo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjh-Pf-NzM">
+                                <rect key="frame" x="85" y="548" width="244.5" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.43137254899999999" green="0.43137254899999999" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yeH-30-EOV" firstAttribute="top" secondItem="eHt-TJ-UTj" secondAttribute="bottom" constant="15" id="8Vn-3v-Uc7"/>
+                            <constraint firstItem="q1c-nU-icY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="99r-ye-BDd"/>
+                            <constraint firstItem="yeH-30-EOV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="Qd6-3Z-4Q2"/>
+                            <constraint firstItem="sjh-Pf-NzM" firstAttribute="top" secondItem="q1c-nU-icY" secondAttribute="bottom" constant="40" id="RvG-8c-ndb"/>
+                            <constraint firstItem="sjh-Pf-NzM" firstAttribute="centerX" secondItem="q1c-nU-icY" secondAttribute="centerX" id="UOk-8V-DRU"/>
+                            <constraint firstItem="BaE-XL-AVJ" firstAttribute="top" secondItem="eHt-TJ-UTj" secondAttribute="bottom" constant="15" id="VEO-N0-gLm"/>
+                            <constraint firstAttribute="trailing" secondItem="BaE-XL-AVJ" secondAttribute="trailing" constant="15" id="wzk-lp-n5K"/>
+                            <constraint firstItem="q1c-nU-icY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zgB-8s-kTz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addImageView" destination="q1c-nU-icY" id="RM3-fp-hPg"/>
+                        <outlet property="moreButton" destination="BaE-XL-AVJ" id="Z1g-wh-7Zi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

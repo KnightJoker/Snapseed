@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FAFA192322D7268F006B0A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA192222D7268F006B0A58 /* AppDelegate.swift */; };
-		FAFA192522D7268F006B0A58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA192422D7268F006B0A58 /* ViewController.swift */; };
-		FAFA192822D7268F006B0A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA192622D7268F006B0A58 /* Main.storyboard */; };
-		FAFA192A22D72690006B0A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFA192922D72690006B0A58 /* Assets.xcassets */; };
-		FAFA192D22D72690006B0A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA192B22D72690006B0A58 /* LaunchScreen.storyboard */; };
 		FAFA193822D72690006B0A58 /* SnapseedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA193722D72690006B0A58 /* SnapseedTests.swift */; };
 		FAFA194322D72690006B0A58 /* SnapseedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA194222D72690006B0A58 /* SnapseedUITests.swift */; };
+		FAFA195F22DC57AE006B0A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFA195722DC57AE006B0A58 /* Assets.xcassets */; };
+		FAFA196022DC57AE006B0A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA195822DC57AE006B0A58 /* LaunchScreen.storyboard */; };
+		FAFA196122DC57AE006B0A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA195A22DC57AE006B0A58 /* Main.storyboard */; };
+		FAFA196222DC57AE006B0A58 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAFA195D22DC57AE006B0A58 /* Info.plist */; };
+		FAFA196E22DDD4BA006B0A58 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA196B22DDD4BA006B0A58 /* MainController.swift */; };
+		FAFA197022DDD5DB006B0A58 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA196F22DDD5DB006B0A58 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +38,18 @@
 /* Begin PBXFileReference section */
 		FAFA191F22D7268F006B0A58 /* Snapseed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapseed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA192222D7268F006B0A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAFA192422D7268F006B0A58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAFA192722D7268F006B0A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FAFA192922D72690006B0A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FAFA192C22D72690006B0A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FAFA192E22D72690006B0A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAFA193322D72690006B0A58 /* SnapseedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapseedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA193722D72690006B0A58 /* SnapseedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapseedTests.swift; sourceTree = "<group>"; };
 		FAFA193922D72690006B0A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAFA193E22D72690006B0A58 /* SnapseedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapseedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA194222D72690006B0A58 /* SnapseedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapseedUITests.swift; sourceTree = "<group>"; };
 		FAFA194422D72690006B0A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFA195722DC57AE006B0A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFA195922DC57AE006B0A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFA195B22DC57AE006B0A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFA195D22DC57AE006B0A58 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFA196B22DDD4BA006B0A58 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		FAFA196F22DDD5DB006B0A58 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +100,10 @@
 		FAFA192122D7268F006B0A58 /* Snapseed */ = {
 			isa = PBXGroup;
 			children = (
+				FAFA195422DC57AE006B0A58 /* Classes */,
+				FAFA195622DC57AE006B0A58 /* Resources */,
+				FAFA195C22DC57AE006B0A58 /* Supporting Files */,
 				FAFA192222D7268F006B0A58 /* AppDelegate.swift */,
-				FAFA192422D7268F006B0A58 /* ViewController.swift */,
-				FAFA192622D7268F006B0A58 /* Main.storyboard */,
-				FAFA192922D72690006B0A58 /* Assets.xcassets */,
-				FAFA192B22D72690006B0A58 /* LaunchScreen.storyboard */,
-				FAFA192E22D72690006B0A58 /* Info.plist */,
 			);
 			path = Snapseed;
 			sourceTree = "<group>";
@@ -123,6 +124,65 @@
 				FAFA194422D72690006B0A58 /* Info.plist */,
 			);
 			path = SnapseedUITests;
+			sourceTree = "<group>";
+		};
+		FAFA195422DC57AE006B0A58 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA196C22DDD4BA006B0A58 /* Common */,
+				FAFA196922DDD4BA006B0A58 /* Module */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FAFA195622DC57AE006B0A58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA195722DC57AE006B0A58 /* Assets.xcassets */,
+				FAFA195822DC57AE006B0A58 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAFA195C22DC57AE006B0A58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA195D22DC57AE006B0A58 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAFA196922DDD4BA006B0A58 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA196A22DDD4BA006B0A58 /* ViewControllers */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		FAFA196A22DDD4BA006B0A58 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA195A22DC57AE006B0A58 /* Main.storyboard */,
+				FAFA196B22DDD4BA006B0A58 /* MainController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FAFA196C22DDD4BA006B0A58 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA196D22DDD4BA006B0A58 /* Utility */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FAFA196D22DDD4BA006B0A58 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA196F22DDD5DB006B0A58 /* UIColor+Extension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +289,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFA192D22D72690006B0A58 /* LaunchScreen.storyboard in Resources */,
-				FAFA192A22D72690006B0A58 /* Assets.xcassets in Resources */,
-				FAFA192822D7268F006B0A58 /* Main.storyboard in Resources */,
+				FAFA196222DC57AE006B0A58 /* Info.plist in Resources */,
+				FAFA196122DC57AE006B0A58 /* Main.storyboard in Resources */,
+				FAFA195F22DC57AE006B0A58 /* Assets.xcassets in Resources */,
+				FAFA196022DC57AE006B0A58 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +317,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFA192522D7268F006B0A58 /* ViewController.swift in Sources */,
+				FAFA197022DDD5DB006B0A58 /* UIColor+Extension.swift in Sources */,
+				FAFA196E22DDD4BA006B0A58 /* MainController.swift in Sources */,
 				FAFA192322D7268F006B0A58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,20 +355,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FAFA192622D7268F006B0A58 /* Main.storyboard */ = {
+		FAFA195822DC57AE006B0A58 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FAFA192722D7268F006B0A58 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FAFA192B22D72690006B0A58 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAFA192C22D72690006B0A58 /* Base */,
+				FAFA195922DC57AE006B0A58 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFA195A22DC57AE006B0A58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFA195B22DC57AE006B0A58 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -434,7 +496,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWV7N4CNDC;
-				INFOPLIST_FILE = Snapseed/Info.plist;
+				INFOPLIST_FILE = "Snapseed/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +515,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWV7N4CNDC;
-				INFOPLIST_FILE = Snapseed/Info.plist;
+				INFOPLIST_FILE = "Snapseed/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
