@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3D8B3C22E9A80000628CC3 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3D8B3B22E9A80000628CC3 /* MenuView.swift */; };
+		FA3D8B3E22E9A82700628CC3 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3D8B3D22E9A82700628CC3 /* MenuView.xib */; };
 		FAFA192322D7268F006B0A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA192222D7268F006B0A58 /* AppDelegate.swift */; };
 		FAFA193822D72690006B0A58 /* SnapseedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA193722D72690006B0A58 /* SnapseedTests.swift */; };
 		FAFA194322D72690006B0A58 /* SnapseedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA194222D72690006B0A58 /* SnapseedUITests.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA3D8B3B22E9A80000628CC3 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		FA3D8B3D22E9A82700628CC3 /* MenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
 		FAFA191F22D7268F006B0A58 /* Snapseed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapseed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA192222D7268F006B0A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFA193322D72690006B0A58 /* SnapseedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapseedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA3D8B3A22E9941400628CC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D8B3B22E9A80000628CC3 /* MenuView.swift */,
+				FA3D8B3D22E9A82700628CC3 /* MenuView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		FAFA191622D7268F006B0A58 = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +168,7 @@
 		FAFA196922DDD4BA006B0A58 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				FA3D8B3A22E9941400628CC3 /* Views */,
 				FAFA196A22DDD4BA006B0A58 /* ViewControllers */,
 			);
 			path = Module;
@@ -291,6 +305,7 @@
 			files = (
 				FAFA196222DC57AE006B0A58 /* Info.plist in Resources */,
 				FAFA196122DC57AE006B0A58 /* Main.storyboard in Resources */,
+				FA3D8B3E22E9A82700628CC3 /* MenuView.xib in Resources */,
 				FAFA195F22DC57AE006B0A58 /* Assets.xcassets in Resources */,
 				FAFA196022DC57AE006B0A58 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -318,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAFA197022DDD5DB006B0A58 /* UIColor+Extension.swift in Sources */,
+				FA3D8B3C22E9A80000628CC3 /* MenuView.swift in Sources */,
 				FAFA196E22DDD4BA006B0A58 /* MainController.swift in Sources */,
 				FAFA192322D7268F006B0A58 /* AppDelegate.swift in Sources */,
 			);

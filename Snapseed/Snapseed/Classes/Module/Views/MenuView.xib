@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MenuView" customModule="Snapseed" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDZ-Gr-ZZM">
+                    <rect key="frame" x="0.0" y="0.0" width="136.5" height="896"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="Looks">
+                        <color key="titleColor" red="0.43137254899999999" green="0.43137254899999999" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lmD-5b-Twp">
+                    <rect key="frame" x="136.5" y="0.0" width="136.5" height="896"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="Tools">
+                        <color key="titleColor" red="0.43137254899999999" green="0.43137254899999999" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpd-2X-Jl4">
+                    <rect key="frame" x="273" y="0.0" width="137" height="896"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="Tools">
+                        <color key="titleColor" red="0.43137254899999999" green="0.43137254899999999" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="lmD-5b-Twp" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="1uy-li-0ad"/>
+                <constraint firstItem="WDZ-Gr-ZZM" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="9ea-Tg-yqn"/>
+                <constraint firstItem="hpd-2X-Jl4" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="9pG-6x-vPs"/>
+                <constraint firstItem="hpd-2X-Jl4" firstAttribute="centerY" secondItem="lmD-5b-Twp" secondAttribute="centerY" id="CBy-3k-Zrc"/>
+                <constraint firstItem="hpd-2X-Jl4" firstAttribute="leading" secondItem="lmD-5b-Twp" secondAttribute="trailing" id="FSb-wL-ZAg"/>
+                <constraint firstItem="WDZ-Gr-ZZM" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="JdZ-Gh-3tt"/>
+                <constraint firstItem="lmD-5b-Twp" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="Qs6-V3-7tM"/>
+                <constraint firstItem="lmD-5b-Twp" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.33" id="ZKP-VZ-X48"/>
+                <constraint firstItem="lmD-5b-Twp" firstAttribute="leading" secondItem="WDZ-Gr-ZZM" secondAttribute="trailing" id="ZnE-VS-Rx8"/>
+                <constraint firstItem="WDZ-Gr-ZZM" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.33" id="bdm-pr-i1f"/>
+                <constraint firstItem="hpd-2X-Jl4" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.33" id="jCb-QN-efH"/>
+                <constraint firstItem="WDZ-Gr-ZZM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jLj-4z-BEB"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

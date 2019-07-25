@@ -55,22 +55,31 @@
                                 <color key="textColor" red="0.43137254899999999" green="0.43137254899999999" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M1V-6S-tZy">
+                                <rect key="frame" x="0.0" y="104" width="414" height="558"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="M1V-6S-tZy" firstAttribute="top" secondItem="eHt-TJ-UTj" secondAttribute="bottom" constant="60" id="3Lm-Ox-HQb"/>
+                            <constraint firstItem="B07-4h-aBf" firstAttribute="top" secondItem="M1V-6S-tZy" secondAttribute="bottom" constant="200" id="45p-Ww-jLu"/>
                             <constraint firstItem="yeH-30-EOV" firstAttribute="top" secondItem="eHt-TJ-UTj" secondAttribute="bottom" constant="15" id="8Vn-3v-Uc7"/>
                             <constraint firstItem="q1c-nU-icY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="99r-ye-BDd"/>
+                            <constraint firstAttribute="trailing" secondItem="M1V-6S-tZy" secondAttribute="trailing" id="CB9-p7-xur"/>
                             <constraint firstItem="yeH-30-EOV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="Qd6-3Z-4Q2"/>
                             <constraint firstItem="sjh-Pf-NzM" firstAttribute="top" secondItem="q1c-nU-icY" secondAttribute="bottom" constant="40" id="RvG-8c-ndb"/>
                             <constraint firstItem="sjh-Pf-NzM" firstAttribute="centerX" secondItem="q1c-nU-icY" secondAttribute="centerX" id="UOk-8V-DRU"/>
                             <constraint firstItem="BaE-XL-AVJ" firstAttribute="top" secondItem="eHt-TJ-UTj" secondAttribute="bottom" constant="15" id="VEO-N0-gLm"/>
+                            <constraint firstItem="M1V-6S-tZy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rg3-Mr-HaS"/>
                             <constraint firstAttribute="trailing" secondItem="BaE-XL-AVJ" secondAttribute="trailing" constant="15" id="wzk-lp-n5K"/>
                             <constraint firstItem="q1c-nU-icY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zgB-8s-kTz"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="addImageView" destination="q1c-nU-icY" id="RM3-fp-hPg"/>
+                        <outlet property="imageView" destination="M1V-6S-tZy" id="2YU-ta-27e"/>
                         <outlet property="moreButton" destination="BaE-XL-AVJ" id="Z1g-wh-7Zi"/>
+                        <outlet property="tipLabel" destination="sjh-Pf-NzM" id="i96-NA-H2M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
