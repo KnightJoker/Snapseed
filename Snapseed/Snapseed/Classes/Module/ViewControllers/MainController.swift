@@ -14,6 +14,7 @@ class MainController: UIViewController {
     @IBOutlet weak var addImageView: UIImageView!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var menuView: MenuView!
     
     private var imagePickerController: UIImagePickerController? {
         get {
@@ -32,7 +33,7 @@ class MainController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        setupView()
+        self.setupView()
     }
     
     
@@ -51,13 +52,31 @@ class MainController: UIViewController {
         addImageView.tintColor = kThemeBlackColor
         
         imageView.isHidden = true
+        menuView.isHidden = true
     }
     
     private func setupImageView(_ image:UIImage) {
         addImageView.isHidden = true
         tipLabel.isHidden = true
         imageView.isHidden = false
+        menuView.isHidden = false
         imageView?.image = image
+        
+        menuView.onLooksButtonDidClick = { [weak self] _ in
+            let looksView = LooksView.init(frame: CGRect(x: 0, y: kScreenHeight, width: kScreenWidth, height: 50))
+            self?.view.addSubview(looksView)
+            UIView.animate(withDuration: 0.3, animations: {
+                looksView.frame = CGRect(x: 0, y: (self?.menuView.frame.minY)! - 50, width: kScreenWidth, height: 50)
+            })
+        }
+        
+        menuView.onToolsButtonDidClick = { _ in
+            
+        }
+        
+        menuView.onExportButtonDidClick = { _ in
+            
+        }
     }
 
 }
@@ -70,7 +89,7 @@ extension MainController : UIImagePickerControllerDelegate, UINavigationControll
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let image = info[.originalImage] as? UIImage {
-            setupImageView(image)
+            self.setupImageView(image)
             dismiss(animated: true, completion: nil)
         }
     }
