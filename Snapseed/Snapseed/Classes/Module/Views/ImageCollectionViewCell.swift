@@ -10,8 +10,27 @@ import UIKit
 
 class ImageCollectionViewCell: UICollectionViewCell {
 
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet private weak var imageView: UIImageView!
+    @IBOutlet private weak var titleLabel: UILabel!
+    
+    var title: String? {
+        get {
+            return self.titleLabel.text
+        }
+        set {
+            self.titleLabel.text = newValue
+        }
+    }
+    
+    var image: UIImage? {
+        get {
+            return self.imageView.image
+        }
+        set {
+            self.imageView.image = newValue
+        }
+    }
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

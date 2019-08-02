@@ -16,19 +16,37 @@ class MainController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var menuView: MenuView!
     
+    private let kLooksViewHeight: NSInteger = 80
+    
+    private var _imagePickerController: UIImagePickerController?
     private var imagePickerController: UIImagePickerController? {
         get {
-            _imagePickerController = UIImagePickerController()
-            _imagePickerController?.allowsEditing = true
-            _imagePickerController?.sourceType = .photoLibrary
-            _imagePickerController?.delegate = self
+            if nil == _imagePickerController {
+                _imagePickerController = UIImagePickerController()
+                _imagePickerController?.allowsEditing = true
+                _imagePickerController?.sourceType = .photoLibrary
+                _imagePickerController?.delegate = self
+            }
             return _imagePickerController
         }
         set {
            _imagePickerController = newValue
         }
     }
-    private var _imagePickerController: UIImagePickerController?
+    
+    private var _looksView: LooksView?
+    private var looksView: LooksView {
+        get {
+            if nil == _looksView {
+                _looksView = LooksView.init()
+            }
+            return _looksView!
+        }
+        set {
+            _looksView = newValue
+        }
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,12 +80,9 @@ class MainController: UIViewController {
         menuView.isHidden = false
         imageView?.image = image
         
+        self.setupLooksView(image)
         menuView.onLooksButtonDidClick = { [weak self] _ in
-            let looksView = LooksView.init(frame: CGRect(x: 0, y: kScreenHeight, width: kScreenWidth, height: 50))
-            self?.view.addSubview(looksView)
-            UIView.animate(withDuration: 0.3, animations: {
-                looksView.frame = CGRect(x: 0, y: (self?.menuView.frame.minY)! - 50, width: kScreenWidth, height: 50)
-            })
+            self?.showLooksViewAnimation()
         }
         
         menuView.onToolsButtonDidClick = { _ in
@@ -77,6 +92,32 @@ class MainController: UIViewController {
         menuView.onExportButtonDidClick = { _ in
             
         }
+    }
+    
+    private func setupLooksView(_ image:UIImage) {
+        self.view.insertSubview(self.looksView, belowSubview: self.menuView)
+        self.looksView.showImageView(image)
+        self.looksView.snp.makeConstraints { (make) -> Void in
+            make.top.equalTo(self.menuView.snp_top)
+            make.left.equalTo(0)
+            make.width.equalTo(kScreenWidth)
+            make.height.equalTo(kLooksViewHeight)
+        }
+    }
+    
+    private func showLooksViewAnimation() {
+        UIView.animate(withDuration: 0.3, animations: {
+            
+            self.looksView.snp.updateConstraints { (make) -> Void in
+                make.top.equalTo(self.menuView.snp_top).offset(-self.kLooksViewHeight)
+            }
+           
+            self.imageView.snp.updateConstraints { (make) -> Void in
+                make.bottom.equalTo(self.menuView.snp_top).offset(-self.kLooksViewHeight - 50)
+            }
+            
+            self.view.layoutIfNeeded()
+        })
     }
 
 }
