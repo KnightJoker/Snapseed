@@ -107,16 +107,34 @@ class MainController: UIViewController {
     
     private func showLooksViewAnimation() {
         UIView.animate(withDuration: 0.3, animations: {
-            
             self.looksView.snp.updateConstraints { (make) -> Void in
                 make.top.equalTo(self.menuView.snp_top).offset(-self.kLooksViewHeight)
             }
-           
             self.imageView.snp.updateConstraints { (make) -> Void in
-                make.bottom.equalTo(self.menuView.snp_top).offset(-self.kLooksViewHeight - 50)
+                make.bottom.equalTo(self.looksView.snp_top).offset(-20)
             }
-            
             self.view.layoutIfNeeded()
+        }, completion: { _ in
+            // Gestures
+            let tap = UITapGestureRecognizer(target: self, action: #selector(self.tapAction))
+            self.imageView.addGestureRecognizer(tap)
+            self.imageView.isUserInteractionEnabled = true
+        })
+        
+    }
+    
+     // MARK: - Gesture recognizers
+    @objc private func tapAction(gestureRecognizer: UITapGestureRecognizer) {
+        UIView.animate(withDuration: 0.3, animations: {
+            self.looksView.snp.updateConstraints { (make) -> Void in
+                make.top.equalTo(self.menuView.snp_top)
+            }
+            self.imageView.snp.updateConstraints { (make) -> Void in
+                  make.bottom.equalTo(self.looksView.snp_top)
+            }
+            self.view.layoutIfNeeded()
+        }, completion: { _ in
+            self.imageView.removeGestureRecognizer(gestureRecognizer)
         })
     }
 

@@ -30,7 +30,6 @@ class LooksView: UIView {
     }
     
     
-    
     private func setupView() {
         self.backgroundColor = .white
         
